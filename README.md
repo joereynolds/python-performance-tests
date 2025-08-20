@@ -7,7 +7,9 @@ Run them with `python3 thefileyouwant.py`
 Results will vary wildly per machine but it at least gives you _some_ idea of
 the performance differences.
 
-| file                                     | description                                                              | sample size | time                     |
-|------------------------------------------|--------------------------------------------------------------------------|-------------|--------------------------|
-| [Tuple vs List](tuple-vs-list-access.py) | Compares access time of lists v tuples (tuples are supposedly faster)    | 50 million  | list ~3.4s, tuple ~3.47s |
-| [Set vs List](set-vs-python-in.py)   | Compares "in" time of Set v lists (sets are supposedly faster)           | 50 million  | list ~8.6s, set ~5.50s |
+
+| file                                                 | description                                                           | sample size | time                                |
+|------------------------------------------------------|-----------------------------------------------------------------------|-------------|-------------------------------------|
+| [Tuple vs List](tuple-vs-list-access.py)             | Compares access time of lists v tuples (tuples are supposedly faster) | 50 million  | list ~3.4s, tuple ~3.47s            |
+| [Set vs List](set-vs-python-in.py)                   | Compares "in" time of Set v lists (sets are supposedly faster)        | 50 million  | list ~8.6s, set ~5.50s              |
+| [For vs Comprehension](for-vs-list-comprehension.py) | Compares the construction of a list with comprehensions and for loops | 10 thousand | comprehension 3.9s , for loop 10.6s |
