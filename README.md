@@ -10,6 +10,7 @@ the performance differences.
 
 | file                                                 | description                                                           | sample size | time                                |
 |------------------------------------------------------|-----------------------------------------------------------------------|-------------|-------------------------------------|
+| [Pass vs empty function](tuple-vs-list-access.py)    | Calling `pass` vs calling an empty function                           | 50 million  | pass ~2s, empty function ~3.2s      |
 | [Tuple vs List](tuple-vs-list-access.py)             | Compares access time of lists v tuples (tuples are supposedly faster) | 50 million  | list ~3.4s, tuple ~3.47s            |
 | [Set vs List](set-vs-python-in.py)                   | Compares "in" time of Set v lists (sets are supposedly faster)        | 50 million  | list ~8.6s, set ~5.50s              |
 | [For vs Comprehension](for-vs-list-comprehension.py) | Compares the construction of a list with comprehensions and for loops | 10 thousand | comprehension 3.9s , for loop 10.6s |

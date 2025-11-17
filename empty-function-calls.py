@@ -1,6 +1,6 @@
 import time
 
-limit = 100000000
+limit = 50_000_000
 
 start = time.time()
 for i in range(limit):
